@@ -1,0 +1,11 @@
+name: Module Config Delete
+description: 'Delete a module install config from site. '
+type: module
+# core: 8.x
+package: 'Config Delete'
+
+# Information added by Drupal.org packaging script on 2019-05-09
+version: '8.x-1.1'
+core: '8.x'
+project: 'module_config_delete'
+datestamp: 1557414799

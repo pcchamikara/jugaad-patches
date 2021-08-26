@@ -1,0 +1,13 @@
+module_config_delete.settings:
+  title: 'Module Config Delete'
+  parent: tinsel_suite.group.admin
+  description: 'Remove module install configuration. '
+  route_name: module_config_delete.settings
+  weight: -100
+  
+tinsel_suite.group.admin:
+  title: 'Tinsel Suite'
+  route_name: system.admin_config_tinsel_suite
+  parent: system.admin_config
+  description: 'Tinsel Suite Configuration'
+  weight: -999

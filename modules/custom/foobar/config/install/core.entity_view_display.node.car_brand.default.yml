@@ -1,0 +1,36 @@
+uuid: f5e2ef26-40fb-41fa-8f2e-63e44efabe52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.car_brand.field_email
+    - field.field.node.car_brand.field_name
+    - node.type.car_brand
+  module:
+    - text
+    - user
+id: node.car_brand.default
+targetEntityType: node
+bundle: car_brand
+mode: default
+content:
+  field_email:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_name:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,17 @@
+module_config_delete.settings:
+  path: '/admin/config/tinsel-suite/module-config-delete'
+  defaults:
+    _form: '\Drupal\module_config_delete\Form\ModuleConfigDelete'
+    _title: 'Module Config Delete'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+    
+system.admin_config_tinsel_suite:
+  path: '/admin/config/tinsel-suite'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Tinsel Suite'
+  requirements:
+    _permission: 'access administration pages'

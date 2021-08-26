@@ -1,0 +1,7 @@
+name: Welcome Module
+type: module
+description: 'testing module'
+version: 1
+core: 8.x
+dependencies:
+  - node
