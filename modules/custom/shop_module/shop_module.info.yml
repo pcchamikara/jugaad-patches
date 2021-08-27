@@ -1,10 +1,10 @@
 name: Shop Module
 type: module
-description: 'testing module'
+description: 'Module for product with QR code to purchase'
 version: 1
 core: 8.x
 dependencies:
   - node
 enforced:
   module:
-    - shop-module
+    - shop_module

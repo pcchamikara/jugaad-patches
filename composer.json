@@ -15,12 +15,15 @@
         }
     ],
     "require": {
+        "chillerlan/php-qrcode": "^3.4",
         "composer/installers": "^1.2",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
-        "drush/drush": "^10.6"
+        "drupal/pathauto": "^1.8",
+        "drush/drush": "^10.6",
+        "endroid/qr-code": "^4.2"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -83,5 +86,6 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+
     }
 }

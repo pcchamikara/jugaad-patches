@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme_registry_alter
+ */
+function shop_module_theme($existing, $type, $theme, $path ) {
+    return [
+            'qr_code_block' => [
+                'variables' => ['qr_code_data' => NULL ], 
+            ]
+        ];
+
+  }
+
+  // TODO  delete config table on uninstall
