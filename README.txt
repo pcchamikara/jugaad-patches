@@ -1,3 +1,9 @@
+INSTALL THE PROJECT
+---------------------
+1 clone the project and 'composer run' in the root using cli
+2 get the database "jugaad-db" from "site-database"
+3 modify the databases details in setting.php
+
 
 CONTENTS OF THIS FILE
 ---------------------
